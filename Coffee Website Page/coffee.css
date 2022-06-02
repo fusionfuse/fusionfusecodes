@@ -1,0 +1,101 @@
+body{
+    margin: 0px
+    
+}
+.coffee-header{
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    height: 130px;
+    width: 100%;
+    background-color: rgb(246, 194, 97);
+    z-index: 100;
+
+}
+.div-logo{
+    height: 100%;
+  float: left;
+margin: 10px;
+  text-align: center;
+}
+.logo-text{
+    display: block;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: bolder;
+    
+}
+.coffee-nav{
+    float: right;
+    height: 100px;
+    
+}
+.coffee-nav a {
+    color: whitesmoke;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-right: 20px;
+    padding-top:12% ;
+    display: inline-block;
+}
+.site-content{
+    position: absolute;
+    top: 100px;
+    width: 100%;
+  
+    
+}
+.image-content{
+    background-image:url(cafe-image.jpg);
+    height: 700px;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    
+   
+}
+.quote{
+    color:aliceblue;
+    font-weight: bold;
+    position:relative;
+    top:10%;
+}
+.cards-list{
+   width:100%;
+   
+}
+.card{
+    width: 20%;
+    float: left;
+    text-align: center;
+    height: 300px;
+    padding: 1.5%;
+
+}
+.card img{
+    width: 100%;
+}
+
+#product{
+    color: rgb(217, 177, 125);
+    text-align: center;
+
+}
+
+.order-list{
+    width: 100%;
+  
+}
+#order{
+    text-align: center;
+    color: rgb(217, 177, 125);
+}
+ form{
+     width: 200px;
+     margin:0 auto;
+ }
+ form input{
+     padding: 10px;
+     margin:10px;
+ }
